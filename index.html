@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--Owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+
+    <title>NOVELFLIX</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NOVELFLIX</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Novelas</a>
+                <a href="#">Mini Séries</a>
+                <a href="#">Documetários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">GÊNESIS</h3>
+                <p class="descricao">A trama é baseada no livro da Bíblia Gênesis e conta a história da criação do mundo, o primeiro homem, Adão, e a primeira mulher, Eva; o grande dilúvio; a Torre de Babel, Jornada de Abraão, e chegando até o período de escravidão do povo
+                    hebreu no Egito.</p>
+                <div class="botoes">
+                    <button role="button" class="botao" onclick="chamarPagina(0)">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao" onclick="chamarPagina(0)">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/aindomada.png" alt="Novela a Indomada" onclick="chamarPagina(1)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/asenhoradodestino.png" alt="Novela a Senhora do Destino" onclick="chamarPagina(2)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/avenidabrasil.png" alt="Novela avenida brasil" onclick="chamarPagina(3)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/avidadagente.png" alt="Novela a vida da Gente" onclick="chamarPagina(4)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/cravoearosa.png" alt="Novela o Cravo e a Rosa" onclick="chamarPagina(5)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/malhacao.jpeg" alt="Novela Malhação" onclick="chamarPagina(6)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/pantanal.jpeg" alt="Novela Pantanal" onclick="chamarPagina(7)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Resumo-da-novela-Império.jpg" alt="Novela o Império" onclick="chamarPagina(8)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/salvesequempuder.jpeg" alt="Novela Salve se Quem Puder" onclick="chamarPagina(9)">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/tititi.jpeg" alt="Novela tititi" onclick="chamarPagina(10)">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/9ae9c3765d.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+    <script src="js/paginas.js"></script>
+</body>
+
+</html>

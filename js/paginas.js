@@ -1,0 +1,35 @@
+function chamarPagina(id){
+    if(id===1){
+        window.open("./trailersIndomada.html","_self")
+    }
+    if(id===2){
+        window.open("./trailersASenhoraDes.html","_self")
+    }
+    if(id===3){
+        window.open("./trailersAvBrasil.html","_self")
+    }
+    if(id===4){
+        window.open("./trailersAvidaGente.html","_self")
+    }
+    if(id===5){
+        window.open("./trailersCravoearosa.html","_self")
+    }
+    if(id===6){
+        window.open("./trailersMalhacao.html","_self")
+    }
+    if(id===7){
+        window.open("./trailersPantanal.html","_self")
+    }
+    if(id===8){
+        window.open("./trailersImperio.html","_self")
+    }
+    if(id===9){
+        window.open("./trailersSalvesequempuder.html","_self")
+    }
+    if(id===10){
+        window.open("./trailersTititi.html","_self")
+    }if(id===0){
+        window.open("./trailersGenesi.html","_self")
+    }
+}
+    
