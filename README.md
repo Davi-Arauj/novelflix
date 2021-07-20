@@ -1,5 +1,6 @@
 # NovelFlix
 Este é um projeto realizado no bootcamp da MRV com intenção de clonar o site da Netflix.
+<h3>Acesso: https://novelfix.netlify.app/</h3>
 
 <h2>Descrição</h2>
 Foi desenvolvido um front-end de inicialização de um site de novelas brasileiras, baseado no site da NetFlix, com a intenção de realiação de um dos projetos do bootcamp da MRV.
